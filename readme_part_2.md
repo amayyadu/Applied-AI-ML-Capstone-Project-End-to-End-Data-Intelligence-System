@@ -9,3 +9,5 @@ Model Coefficients: The three features with the largest absolute coefficients ha
 0  Linear Regression 2755317.5255    0.5471
 1   Ridge Regression 2753983.4869    0.5473
 Ridge Regression: Ridge adds an L2 penalty that shrinks coefficient values, reducing overfitting and multicollinearity. The alpha parameter controls the strength of this penalty; a larger alpha results in greater coefficient shrinkage.
+Classification model — Logistic Regression:
+Class Imbalance: The minority class contained less than 35% of the training samples. Therefore, class_weight='balanced' was used in Logistic Regression to assign higher weight to the minority class without modifying the dataset.
